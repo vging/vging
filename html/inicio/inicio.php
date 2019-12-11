@@ -166,7 +166,7 @@
 			</script>
 		
 		<section class="main">
-			<?php require_once $_SERVER["DOCUMENT_ROOT"]."/config/vging/config.php"; echo $_SERVER["DOCUMENT_ROOT"]."/config/vging/config.php";?>
+			<?php require_once $_SERVER["DOCUMENT_ROOT"]."/config/vging/config.php"; ?>
 			
 			<label id="lblAjaxOculto" class="msjAjaxOculto"></label>
 		
