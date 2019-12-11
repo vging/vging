@@ -1,0 +1,20 @@
+﻿.labelNos {
+	width: 40%; 
+	float: left; 
+	font-size: 170%;
+}
+
+/*.divImgRel2 {
+	width:	150px;
+}
+*/
+
+.imgRel1 {
+		width:	40%;
+	}
+
+@media screen and (max-width: 525px){
+	.imgRel1 {
+		width:	100%;
+	}
+}

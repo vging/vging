@@ -1,0 +1,104 @@
+﻿a.tooltipX, a.tooltipXSinTri {
+  position: relative;
+  display: inline;
+  text-decoration: none;
+}
+
+a.tooltipX span.tooltipX, a.tooltipXSinTri span.tooltipXSinTri{
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  position: absolute;
+  width:140px;
+  color: #FFF;
+  background: #2A2A2A;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  visibility: hidden;
+  border-right: solid 1px #FFF;
+  border-bottom: solid 1px #FFF;
+  border-left: solid 1px #FFF;
+  border-top: solid 1px #FFF;
+}
+
+a.tooltipX span.tooltipX:after {
+  content: '';
+  position: absolute;
+  bottom: 95%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-bottom: 8px solid #2A2A2A;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+
+a:hover.tooltipX span.tooltipX, a.tooltipX:focus span.tooltipX, a:hover.tooltipXSinTri span.tooltipXSinTri, a.tooltipXSinTri:focus span.tooltipXSinTri
+{
+  visibility: visible;
+  top: 30px;
+  left: 22%;
+  margin-left: -76px;
+  z-index: 999;
+}
+
+/* , a:focus.tooltipX span.tooltipX  */
+/*a:focus:hover.tooltipX span.tooltipX 
+{
+
+  visibility: hidden;
+}*/
+
+a.tooltips, a.tooltipsFijo {
+    position: relative;
+    display: inline;
+}
+a.tooltips span, a.tooltipsFijo span {
+    position: absolute;
+    /*width:140px;*/
+    color: #FFFFFF;
+    background: #000000;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px #78807B;
+}
+
+a.tooltipsFijo span {
+	visibility: visible;
+}
+
+
+a.tooltips span:after, a.tooltipsFijo span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -8px;
+    width: 0; height: 0;
+    border-right: 8px solid #000000;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+a:hover.tooltips span {
+    visibility: visible;
+    opacity: 0.8;
+    left: 100%;
+    top: 50%;
+    margin-top: -15px;
+    margin-left: 15px;
+    /*z-index: 999;*/
+}
+
+a.tooltipsFijo span {
+    visibility: visible;
+    opacity: 0.8;
+    left: 100%;
+    top: 50%;
+    margin-top: -15px;
+    margin-left: 15px;
+    /*z-index: 999;*/
+}

@@ -1,0 +1,93 @@
+/**,
+*:before,
+*:after {
+  box-sizing: border-box;
+}*/
+.float-label
+{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.float-label, .float-label:before,.float-label:after
+{
+	box-sizing: border-box;
+}
+
+.float-label .control 
+{
+	float: left;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #dddddd;
+	padding-top: 23px;
+	padding-bottom: 10px;
+}
+
+.float-label .control.small {
+  width: 30%;
+  width: 33%;
+  border-right: 1px solid #dddddd;
+}
+
+.float-label .control.medium {
+  width: 70%;
+  width: 64%;
+  padding-left: 10px;
+}
+
+.float-label .control:last-child {
+  border: 0;
+}
+
+.float-label input,
+.float-label textarea {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: block;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  resize: none;
+}
+
+.float-label input + label,
+.float-label textarea + label {
+  position: absolute;
+  top: 10px;
+  transition: top 0.7s ease, opacity 0.7s ease;
+  opacity: 0;
+  font-size: 14px;
+  font-weight: 600;
+	font-weight: normal;
+  color: #ccc;
+}
+
+.float-label input:valid + label,
+.float-label textarea:valid + label {
+  opacity: 1;
+  top: 3px;
+}
+
+.float-label input:focus + label,
+.float-label textarea:focus + label {
+  color: #2c8efe;
+	color: #33C3F0;
+	font-weight: normal;
+}
+
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder{
+	font-family: 'Source Sans Pro', sans-serif;
+	/*font-weight: 300;*/
+	font-size: 15px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #FFF inset;
+}

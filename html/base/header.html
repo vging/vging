@@ -1,0 +1,104 @@
+<div id="uiDivBtnLogin" class="divDer" style="position: relative; z-index: 1;">
+	<a id="uiAncMenuLogin" href="javascript:;" class="btnLT tooltipX btnCircularSinSombra btnCircularSinOutLine" 
+	   style="display: inline-block; height: 35px; width: 35px; top: 1px; right: 5px;">
+		<div class="centrado-porcentual">
+			<span class="icon-dots-three-vertical" style=" color: #000; font-size: 22px;"></span>
+			<span class="tooltipX negrilla es-GT" style="width: 75px; top: 40px; left: 40px;">Ingresar</span>
+			<span class="tooltipX negrilla en-EU" style="width: 75px; top: 40px; left: 40px;">Log In</span>
+		</div>
+	</a>
+</div>
+
+<div id="uiDivInfoUsuario" class="divDer" style="display: none">
+	<a id="uiAncInfoUsuario" href="javascript:;" class="btnLT tooltipXSinTri btnCircularSinSombra2 btnCircularSinOutLine" 
+	   style="display: inline-block; height: 35px; width: 35px; top: 1px; right: 5px;">
+		<div class="centrado-porcentual">
+			<span class="icon-user"></span>
+			<span id="uiSpanInfoUsuario" class="tooltipXSinTri negrilla" style="width: 100px; top: 35px; left: 0; border-radius: 3px;"></span>
+		</div>
+	</a>
+</div>
+
+<div id="menuFlotanteIdioma" class="menuFlotanteIdioma">
+	<script>	
+		$( '#menuFlotanteIdioma' ).load( '../base/menuFlotanteIdioma.html', function(){ $( document ).ready( cargarIdiomas ); } );
+	</script>
+</div>
+
+<div id="uiDivLogin" class="dn" style="width: 100%;">
+	<form id="frmDivLogin" accept-charset="utf-8" enctype="text/plain" method="post" action="javascript:;" onsubmit="return false;" novalidate>
+		<div>
+			<div class="float-label clear">
+				<div class="control medium mi5">
+					<input type="text" id="uiTxtUsr" title="Usuario" placeholder="Usuario" required value=""/>
+					<label id="uiLblUsr" for="uiTxtUsr">Usuario</label>									
+				</div>
+				<div class="control medium field field--toggle mi5">
+					<input type="password" id="uiTxtPss" title="Contrase&ntilde;a" placeholder="Contrase&ntilde;a" required autocomplete="off" value=""/>
+					<label id="uiLblPss" for="uiTxtPss">Contrase&ntilde;a</label>
+					
+					<!--div class="onoffswitch" style="position: absolute; top: 25%; left: 85%;">
+						<input type="checkbox" id="uiCbVerPss" class="onoffswitch-checkbox" />
+						<label for="uiCbVerPss" class="onoffswitch-label" style="position: relative; overflow: visible;"></label>
+					</div-->
+
+					<div class="option">
+						<input id="uiCbVerPss" type="checkbox" class="option__input"/>
+						<label id="uiLblVerPss" for="uiCbVerPss" class="option__label"
+							   style="position: relative !important; top: 0; transition: none; font-weight: normal; font-size: 15px; font-family: Helvetica, Verdana, sans-serif"></label>
+					 </div>
+					
+				</div>
+			</div>
+			
+			<div class="clear divSignUpAndLogin">
+				<a id="uiAncLogIn" href="javascript:;" class="buttonSignUpAndLogin">Continuar</a>
+				
+				<div id="uiDivCs" class="dib" style="position: relative; top: -5px; left: 50px;">
+					<a id="uiAncCs" href="javascript:;" class="tooltipX" style="height: 40px; width: 40px;">
+						<div class="centrado-porcentual negrilla">
+							<div class="onoffswitch">
+								<input type="checkbox" id="uiCbCs" class="onoffswitch-checkbox" checked="checked"/>
+								<label for="uiCbCs" class="onoffswitch-label"></label>
+							</div>
+
+							<span class="tooltipX es-GT" style="width: 75px; top: 30px; left: 65px;">Recordarme</span>
+							<span class="tooltipX en-EU" style="width: 100px; top: 33px; left: 50px;">Stay signed in</span>
+						</div>
+					</a>
+				</div>
+				<!--F2F2F2-->
+				<a id="uiAncSalir" href="javascript:;" class="buttonSignUpAndLogin btnGris divDer" style="color: #6F6F6F; text-shadow: none; background-color: #FFF; border-color: #484848;">Salir</a>
+				
+			</div>
+		</div>
+	
+	</form>
+	
+	<script>	
+		$( document ).ready( mainCerrarDivLogIn ); 
+	</script>
+</div>
+
+<h1>
+	<a href="../inicio/inicio.php">
+		<div class="" style="width: 170px;">
+			<img src="../../imagenes/logo.png" style="width: 90%; height: 42%;"/>
+		</div>
+	</a>
+</h1>
+
+<div id="divMenuDisAgl">
+	<script>	
+		$( '#divMenuDisAgl' ).load( '../base/menuDisAgl.html', function() { $( document ).ready( main ); } );
+	</script>
+</div>
+
+<div id="loader" class="dn">
+	<div id="circuleExtern">
+		<div id="circuleMedium">
+			<div id="circuleCenter">
+			</div>
+		</div>
+	</div>
+</div>

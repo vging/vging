@@ -1,0 +1,44 @@
+.box-shadow-menu {
+  position: relative;
+  padding-left: 1.25em;
+
+  /*nuevo*/padding: 0.75em 0.75em 0.5em 1.75em;
+  /*nuevo*/border: solid 2px #FFF;
+  /*nuevo*/border-radius: 3px;
+  /*nuevo*/font-size: 11px;
+  /*nuevo*/font-family: Verdana;
+}
+
+.box-shadow-menu:before {
+	font-size: 20px;
+	/*nuevo*/font-size: 12px;
+  content: "";
+  position: absolute;
+  left: 0;
+  /*nuevo*/left: 0.4em;
+  top: 0.7em;
+  top: 0.2em;
+  /*nuevo*/top: 0.7em;
+  width: 1em;
+  height: 0.15em;
+  background: #FFF;
+  box-shadow: 
+	0 0.25em 0 0 #FFF,
+	0 0.5em 0 0 #FFF;
+	color: #FFF;
+}
+
+.border-menu {
+  position: relative;
+  padding-left: 1.25em;
+}
+.border-menu:before {
+  content: "";
+  position: absolute;
+  top: 0.25em;
+  left: 0;
+  width: 1em;
+  height: 0.125em;
+  border-top: 0.375em double #000;
+  border-bottom: 0.125em solid #000;
+}

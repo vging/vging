@@ -1,0 +1,175 @@
+﻿.btnCircular 
+{
+	display:	inline-block;
+	height:		30px;
+	width:		30px;
+	text-decoration: none;
+	position: relative;
+	/*margin: 50px;*/
+	color:		#FFF;
+	text-align: center;
+	/*line-height: 100px;*/
+
+	/*Rounded Corners and Shadows*/  
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	
+	-webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+	-moz-box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.btnCircularSinOutLine:focus 
+{
+	outline: none;
+}
+
+a.btnCircular[disabled], a.btnCircular[disabled]:hover  
+{
+    background: #DDD;
+    border-color: #CCC;
+    cursor: default;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+/*input[type=submit].btnL:disabled:hover 
+{
+    -webkit-box-shadow:     none;
+    -moz-box-shadow:        none;
+    text-shadow:            none;
+}*/
+
+.btnCircularSinSombra2
+{
+	display:	inline-block;
+	height:		30px;
+	width:		30px;
+	text-decoration: none;
+	position: relative;
+	/*margin: 50px;*/
+	color:		#FFF;
+	text-align: center;
+	/*line-height: 100px;*/
+
+	/*Rounded Corners and Shadows*/  
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+
+.btnCircularSinSombra
+{
+	display:	inline-block;
+	height:		30px;
+	width:		30px;
+	text-decoration: none;
+	position: relative;
+	/*margin: 50px;*/
+	color:		#FFF;
+	text-align: center;
+	/*line-height: 100px;*/
+
+	/*Rounded Corners and Shadows*/  
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+
+.floatRight
+{
+	float: right;
+	right: 8%;
+}
+
+.btnCircularSinSombra:hover, .btnCircularSinSombra:focus
+{
+	background-color: #E7E3E7;
+}
+
+.btnCircular40x40 {
+	height:		40px;
+	width:		40px;
+}
+
+.btnSombra2 {
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.btnAzul
+{
+	/*Ridiculous Gradient Syntax*/  
+	background: #007DE7; /* Old browsers */  
+	background: -moz-linear-gradient(top,  #007DE7 0%, #0071BD 100%); /* FF3.6+ */  
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#007DE7), color-stop(100%,#0071BD)); /* Chrome,Safari4+ */  
+	background: -webkit-linear-gradient(top,  #007DE7 0%,#0071BD 100%); /* Chrome10+,Safari5.1+ */  
+	background: -o-linear-gradient(top,  #007DE7 0%,#0071BD 100%); /* Opera 11.10+ */  
+	background: -ms-linear-gradient(top,  #007DE7 0%,#0071BD 100%); /* IE10+ */  
+	background: linear-gradient(top,  #007DE7 0%,#0071BD 100%); /* W3C */  
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007DE7', endColorstr='#0071BD',GradientType=0 ); /* IE6-9 */  
+}
+
+.btnRojo
+{
+	/*Ridiculous Gradient Syntax*/  
+	background: #e51d16; /* Old browsers */  
+	background: -moz-linear-gradient(top,  #e51d16 0%, #b21203 100%); /* FF3.6+ */  
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e51d16), color-stop(100%,#b21203)); /* Chrome,Safari4+ */  
+	background: -webkit-linear-gradient(top,  #e51d16 0%,#b21203 100%); /* Chrome10+,Safari5.1+ */  
+	background: -o-linear-gradient(top,  #e51d16 0%,#b21203 100%); /* Opera 11.10+ */  
+	background: -ms-linear-gradient(top,  #e51d16 0%,#b21203 100%); /* IE10+ */  
+	background: linear-gradient(top,  #e51d16 0%,#b21203 100%); /* W3C */
+	background-color:	#F44336 !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e51d16', endColorstr='#b21203',GradientType=0 ); /* IE6-9 */  
+}
+
+.btnRojo2 {
+	background-color:	#F44336 !important;
+}
+
+.btnVerdeCampo
+{
+	background: #4AA93B; 
+	border: solid 1px #4AA93B; 
+}
+
+.btnEnviar
+{
+	top: -35px; width: 65px; height: 65px;
+}
+
+.btnAzulNavy
+{
+	background: #083052; /* Old browsers */ 
+}
+
+.btnGrisTierra
+{
+	background: #393431; /* Old browsers */ 
+}
+
+.btnRosado
+{
+	background: #FF59AD; /* Old browsers */ 
+}
+
+.btnLila
+{
+	background: #6B71FF; /* Old browsers */ 
+}
+
+.btnGrisClaro
+{
+	background: #9C9A9C; /* Old browsers */ 
+}
+
+.centrado-porcentual {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}

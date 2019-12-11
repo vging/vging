@@ -1,0 +1,67 @@
+.mision, .vision{
+	font-size: 15px;
+    color: #888;
+}
+
+.mision div.titulo, .vision div.titulo{
+	color:					#696969;
+	font-weight: 			bold;
+	text-transform:			uppercase;
+}
+
+.mision div.cuerpo, .vision div.cuerpo{
+	text-align : 			justify;
+	color:					#a7a0a2;
+}
+
+.liServicios {
+	/*width:					200px;*/
+	padding:				2em 1em 1em 1em;               
+	text-align: 			center;
+	-webkit-transition:		all 300ms ease-out;
+	-moz-transition: 		all 300ms ease-out;
+	-ms-transition: 		all 300ms ease-out;
+	-o-transition: 			all 300ms ease-out;
+	transition: 			all 300ms ease-out;
+}
+
+.liServicios img {
+	margin:					auto;
+	display:				block;
+	-webkit-transform: 		scale(.9);
+	-moz-transform: 		scale(.9);
+	-ms-transform: 			scale(.9);
+	-o-transform: 			scale(.9));         
+	transform:				scale(.9);
+
+	-webkit-transition: 	all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	-moz-transition:		all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	-ms-transition: 		all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	-o-transition: 			all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	transition: 			all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940); /* easeOutQuad */
+}
+
+.liServicios:hover, .liServicios:focus{
+	background-color:		#FFF;
+	background-color: 		rgba(200,200,200,0.3);
+	cursor: 				pointer;
+	border-radius: 			10px;        
+	-webkit-border-radius: 	10px;
+}
+
+.liServicios:hover img, .liServicios:focus img{
+	-moz-transform: 		scale(1);
+	-webkit-transform: 		scale(1);
+	-o-transform:			scale(1));
+	-ms-transform: 			scale(1);
+	transform:				scale(1);
+}
+
+.liServicios:hover div, .liServicios:focus div{
+	font-weight:			bold;
+}
+
+.divCuerpoContactenos{
+	background-color:	#F1F1F1;
+	background-color:	#FFF;
+}

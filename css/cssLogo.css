@@ -1,0 +1,13 @@
+.spanLogo1{
+	color:					#0E377D;	
+}
+
+.spanLogo2{
+	background-image:		-o-linear-gradient(bottom, #0E377D 20%, #FF0000 100%);
+	background-image:		-moz-linear-gradient(bottom, #0E377D 20%, #FF0000 100%);
+	background-image:		-webkit-linear-gradient(bottom, #0E377D 20%, #FF0000 100%);
+	background-image:		-ms-linear-gradient(bottom, #0E377D 20%, #FF0000 100%);
+	background-image:		linear-gradient(to bottom, #0E377D 20%, #FF0000 100%);
+	color:					#FFF;
+	padding:				0 7px;
+}
