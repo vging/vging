@@ -18,9 +18,7 @@ function getActiveStyleSheet() {
 
 function getPreferredStyleSheet() {
   var i, a;
-  console.log( 'getPreferredStyleSheet' );
   for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
-	  console.log('rel: '+a.getAttribute("rel"));
     if(a.getAttribute("rel").indexOf("style") != -1
        && a.getAttribute("rel").indexOf("alt") == -1
        && a.getAttribute("title")
@@ -55,13 +53,14 @@ function readCookie(name) {
 window.onload = function(e) {
   var idioma = optionSel( 'slctIdioma' );
   var cookie = readCookie( 'style' );
-  console.log('cookie: ' + cookie);
   
   //var title = (cookie) ? cookie : getPreferredStyleSheet();
   var title = (null===cookie || undefined==cookie || 'null'==cookie) ? getPreferredStyleSheet() : cookie;
+  var tmp_title = title;
   title = (title)?title:idioma;
-  createCookie( 'style', title, 365 );
-  console.log('title: ' + title);
+  if('null'==tmp_title)
+	createCookie( 'style', title, 365 );
+	
   setActiveStyleSheet(title);
 }
 
